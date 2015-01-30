@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		382CE6EE1609015C00DA6201 /* SpectraSnapp_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 382CE6ED1609015C00DA6201 /* SpectraSnapp_background.jpg */; };
+		382CE6F1160915EC00DA6201 /* CustomNavBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 382CE6F0160915EC00DA6201 /* CustomNavBG.png */; };
+		38537F48162D9C43005A3EBB /* grating_laser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38537F47162D9C43005A3EBB /* grating_laser.jpg */; };
+		386AB5AF15EC6C5400B09E51 /* analysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386AB5AD15EC6C5400B09E51 /* analysisViewController.m */; };
+		386AB5B015EC6C5400B09E51 /* analysisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5AE15EC6C5400B09E51 /* analysisViewController.xib */; };
+		386AB5BF15ED1C1100B09E51 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386AB5BE15ED1C1100B09E51 /* Accelerate.framework */; };
+		386AB5C315ED1C2A00B09E51 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 386AB5C215ED1C2A00B09E51 /* libz.1.2.5.dylib */; };
+		386AB5C515ED1C3800B09E51 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 386AB5C415ED1C3800B09E51 /* libsqlite3.0.dylib */; };
+		386AB5C715ED1C3E00B09E51 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386AB5C615ED1C3E00B09E51 /* CoreData.framework */; };
+		386AB5CB15ED444800B09E51 /* cameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386AB5C915ED444800B09E51 /* cameraViewController.m */; };
+		386AB5CC15ED444800B09E51 /* cameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5CA15ED444800B09E51 /* cameraViewController.xib */; };
+		386AB5CE15ED496F00B09E51 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386AB5CD15ED496E00B09E51 /* MobileCoreServices.framework */; };
+		386AB5D215ED61A400B09E51 /* calibrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386AB5D015ED61A300B09E51 /* calibrationViewController.m */; };
+		386AB5D315ED61A400B09E51 /* calibrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5D115ED61A400B09E51 /* calibrationViewController.xib */; };
+		386AB5DF15EEAA7E00B09E51 /* Default-PortraitUpsideDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5DD15EEAA7D00B09E51 /* Default-PortraitUpsideDown.png */; };
+		386AB5E015EEAA7E00B09E51 /* Default-PortraitUpsideDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5DE15EEAA7E00B09E51 /* Default-PortraitUpsideDown@2x.png */; };
+		388360F515EEC42800AC2ED8 /* build.html in Resources */ = {isa = PBXBuildFile; fileRef = 388360EC15EEC42800AC2ED8 /* build.html */; };
+		3895CC981603C2AF00FA53D7 /* yellow-arrow_no-glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3895CC941603C2AF00FA53D7 /* yellow-arrow_no-glow.png */; };
+		3895CC991603C2AF00FA53D7 /* red-arrow_no-glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3895CC951603C2AF00FA53D7 /* red-arrow_no-glow.png */; };
+		3895CC9A1603C2AF00FA53D7 /* green-arrows_no-glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3895CC961603C2AF00FA53D7 /* green-arrows_no-glow.png */; };
+		3895CC9B1603C2AF00FA53D7 /* blue-arrow_no-glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3895CC971603C2AF00FA53D7 /* blue-arrow_no-glow.png */; };
+		38971BC7160D4DF40016921F /* iPhone.css in Resources */ = {isa = PBXBuildFile; fileRef = 38971BC6160D4DF40016921F /* iPhone.css */; };
+		38971BCA160D4EA90016921F /* Default-Portrait-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38971BC9160D4EA90016921F /* Default-Portrait-568h@2x.png */; };
+		38971BCC160E84190016921F /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 38971BCB160E84190016921F /* style.css */; };
+		38971BCE1610FC4D0016921F /* Aluminum_Spectra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BCD1610FC4D0016921F /* Aluminum_Spectra.jpg */; };
+		38971BE01610FC810016921F /* Argon_Spectrum.png in Resources */ = {isa = PBXBuildFile; fileRef = 38971BCF1610FC810016921F /* Argon_Spectrum.png */; };
+		38971BE11610FC810016921F /* Calcium_Spectrum.png in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD01610FC810016921F /* Calcium_Spectrum.png */; };
+		38971BE21610FC810016921F /* Carbon_Spectra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD11610FC810016921F /* Carbon_Spectra.jpg */; };
+		38971BE31610FC810016921F /* compact fluorescent white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD21610FC810016921F /* compact fluorescent white.jpg */; };
+		38971BE41610FC810016921F /* compact fluorescent yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD31610FC810016921F /* compact fluorescent yellow.jpg */; };
+		38971BE51610FC810016921F /* computer monitor RGB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD41610FC810016921F /* computer monitor RGB.jpg */; };
+		38971BE61610FC810016921F /* full spectrum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD51610FC810016921F /* full spectrum.jpg */; };
+		38971BE81610FC810016921F /* Iron_Spectrum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD71610FC810016921F /* Iron_Spectrum.jpg */; };
+		38971BE91610FC810016921F /* Mercury_Spectra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD81610FC810016921F /* Mercury_Spectra.jpg */; };
+		38971BEA1610FC810016921F /* overhead fluorescent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BD91610FC810016921F /* overhead fluorescent.jpg */; };
+		38971BEB1610FC810016921F /* oxygen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BDA1610FC810016921F /* oxygen.jpg */; };
+		38971BEC1610FC810016921F /* Potassium_Spectrum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BDB1610FC810016921F /* Potassium_Spectrum.jpg */; };
+		38971BED1610FC810016921F /* Silicon_Spectra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BDC1610FC810016921F /* Silicon_Spectra.jpg */; };
+		38971BEE1610FC810016921F /* solar emission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BDD1610FC810016921F /* solar emission.jpg */; };
+		38971BEF1610FC810016921F /* Sulfur_Spectrum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BDE1610FC810016921F /* Sulfur_Spectrum.jpg */; };
+		38971BF01610FC810016921F /* Xenon_Spectrum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BDF1610FC810016921F /* Xenon_Spectrum.jpg */; };
+		38971BF21610FFD70016921F /* black light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BF11610FFD70016921F /* black light.jpg */; };
+		38971BF4161106D30016921F /* barium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BF3161106D30016921F /* barium.jpg */; };
+		38971BF6161107DA0016921F /* neon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BF5161107DA0016921F /* neon.jpg */; };
+		38971BF81611087C0016921F /* nitrogen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BF71611087C0016921F /* nitrogen.jpg */; };
+		38971BFA161109030016921F /* strontium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38971BF9161109030016921F /* strontium.jpg */; };
+		38971C011611FED00016921F /* physics.html in Resources */ = {isa = PBXBuildFile; fileRef = 38971BFF1611FED00016921F /* physics.html */; };
+		38971C021611FED00016921F /* share.html in Resources */ = {isa = PBXBuildFile; fileRef = 38971C001611FED00016921F /* share.html */; };
+		38971C051611FEF50016921F /* physicsheader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38971C041611FEF50016921F /* physicsheader.gif */; };
+		38971C071611FFEB0016921F /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 38971C061611FFEB0016921F /* help.html */; };
+		38971C0D161203060016921F /* facebook_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38971C08161203040016921F /* facebook_1.gif */; };
+		38971C0E161203060016921F /* feed_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38971C09161203050016921F /* feed_1.gif */; };
+		38971C0F161203060016921F /* itunes_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38971C0A161203050016921F /* itunes_2.gif */; };
+		38971C10161203060016921F /* twitter_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38971C0B161203050016921F /* twitter_1.gif */; };
+		38971C11161203060016921F /* youtube.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38971C0C161203050016921F /* youtube.gif */; };
+		389726B715EFCB6F00CBF0DC /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 389726B615EFCB6F00CBF0DC /* Untitled.png */; };
+		389726B915EFCEAF00CBF0DC /* learn.html in Resources */ = {isa = PBXBuildFile; fileRef = 389726B815EFCEAF00CBF0DC /* learn.html */; };
+		38AA407F161E21D200B9AD70 /* Icon_Snapp_Analyze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA4077161E21D100B9AD70 /* Icon_Snapp_Analyze.jpg */; };
+		38AA4080161E21D200B9AD70 /* Icon_Snapp_Build.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA4078161E21D200B9AD70 /* Icon_Snapp_Build.jpg */; };
+		38AA4081161E21D200B9AD70 /* Icon_Snapp_Calibration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA4079161E21D200B9AD70 /* Icon_Snapp_Calibration.jpg */; };
+		38AA4082161E21D200B9AD70 /* Icon_Snapp_HelpDesk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA407A161E21D200B9AD70 /* Icon_Snapp_HelpDesk.jpg */; };
+		38AA4083161E21D200B9AD70 /* Icon_Snapp_Learn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA407B161E21D200B9AD70 /* Icon_Snapp_Learn.jpg */; };
+		38AA4084161E21D200B9AD70 /* Icon_Snapp_PhysicsCentral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA407C161E21D200B9AD70 /* Icon_Snapp_PhysicsCentral.jpg */; };
+		38AA4085161E21D200B9AD70 /* Icon_Snapp_Share.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA407D161E21D200B9AD70 /* Icon_Snapp_Share.jpg */; };
+		38AA4086161E21D200B9AD70 /* Icon_Snapp_Sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA407E161E21D200B9AD70 /* Icon_Snapp_Sample.jpg */; };
+		38AA4088161E371D00B9AD70 /* lightwaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA4087161E371D00B9AD70 /* lightwaves.jpg */; };
+		38AA408A161E3B6000B9AD70 /* grating_lines.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA4089161E3B6000B9AD70 /* grating_lines.jpg */; };
+		38AA4091161E432400B9AD70 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA408B161E432200B9AD70 /* 1.jpg */; };
+		38AA4092161E432400B9AD70 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA408C161E432200B9AD70 /* 2.jpg */; };
+		38AA4093161E432400B9AD70 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA408D161E432300B9AD70 /* 3.jpg */; };
+		38AA4094161E432400B9AD70 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA408E161E432300B9AD70 /* 4.jpg */; };
+		38AA4095161E432400B9AD70 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA408F161E432400B9AD70 /* 5.jpg */; };
+		38AA4096161E432400B9AD70 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38AA4090161E432400B9AD70 /* 6.jpg */; };
+		38BCBC2D163D826A001D60EB /* grating.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38BCBC2A163D826A001D60EB /* grating.jpg */; };
+		38BCBC2E163D826A001D60EB /* greenhouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38BCBC2B163D826A001D60EB /* greenhouse.jpg */; };
+		38BCBC2F163D826A001D60EB /* spectrum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38BCBC2C163D826A001D60EB /* spectrum.jpg */; };
+		38E03E5315EBAA0A00599A79 /* apsLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E4515EBAA0A00599A79 /* apsLogo.png */; };
+		38E03E5515EBAA0A00599A79 /* arrowsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E4715EBAA0A00599A79 /* arrowsIcon.png */; };
+		38E03E5D15EBAA0A00599A79 /* snappTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E4F15EBAA0A00599A79 /* snappTitle.png */; };
+		38E03E5E15EBAA0A00599A79 /* spectraSnappTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E5015EBAA0A00599A79 /* spectraSnappTitle.png */; };
+		38E03E5F15EBAA0A00599A79 /* spectraTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E5115EBAA0A00599A79 /* spectraTitle.png */; };
+		38E03E6115EBAA2800599A79 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E6015EBAA2800599A79 /* data.plist */; };
+		38E03E6415EBAA8500599A79 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E6215EBAA8500599A79 /* Default-Portrait@2x.png */; };
+		38E03E6515EBAA8500599A79 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E6315EBAA8500599A79 /* Default-Portrait.png */; };
+		38E03E6715EBAB5A00599A79 /* MainView-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E6615EBAB5A00599A79 /* MainView-background.png */; };
+		38E03E7A15EBD47400599A79 /* webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E03E7815EBD47400599A79 /* webViewController.m */; };
+		38E03E7B15EBD47400599A79 /* webViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E7915EBD47400599A79 /* webViewController.xib */; };
+		38E03E8015EBD95000599A79 /* blue-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E7C15EBD95000599A79 /* blue-arrow.png */; };
+		38E03E8115EBD95000599A79 /* green-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E7D15EBD95000599A79 /* green-arrow.png */; };
+		38E03E8215EBD95000599A79 /* red-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E7E15EBD95000599A79 /* red-arrow.png */; };
+		38E03E8315EBD95000599A79 /* yellow-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E7F15EBD95000599A79 /* yellow-arrow.png */; };
+		38EB81AF15F04F39001D01DB /* spectra.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38EB81AE15F04F39001D01DB /* spectra.plist */; };
+		38EB81B215F14AD4001D01DB /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EB81B115F14AD4001D01DB /* icon57.png */; };
+		643DC2A41A38BAF1004495FC /* AviarySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643DC2A21A38BAF1004495FC /* AviarySDK.framework */; };
+		643DC2A51A38BAF1004495FC /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 643DC2A31A38BAF1004495FC /* AviarySDKResources.bundle */; };
+		987021E3158271F10015FB5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987021E2158271F10015FB5E /* UIKit.framework */; };
+		987021E5158271F10015FB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987021E4158271F10015FB5E /* Foundation.framework */; };
+		987021E7158271F10015FB5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987021E6158271F10015FB5E /* CoreGraphics.framework */; };
+		987021ED158271F10015FB5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 987021EB158271F10015FB5E /* InfoPlist.strings */; };
+		987021EF158271F10015FB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 987021EE158271F10015FB5E /* main.m */; };
+		987021F3158271F10015FB5E /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 987021F2158271F10015FB5E /* BBAppDelegate.m */; };
+		987021F6158271F10015FB5E /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987021F5158271F10015FB5E /* BBViewController.m */; };
+		987021F9158271F10015FB5E /* BBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 987021F7158271F10015FB5E /* BBViewController.xib */; };
+		98702201158279830015FB5E /* BBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98702200158279830015FB5E /* BBCell.m */; };
+		987022031582ADAB0015FB5E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987022021582ADAB0015FB5E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		382CE6ED1609015C00DA6201 /* SpectraSnapp_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpectraSnapp_background.jpg; sourceTree = "<group>"; };
+		382CE6F0160915EC00DA6201 /* CustomNavBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomNavBG.png; sourceTree = "<group>"; };
+		38537F47162D9C43005A3EBB /* grating_laser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grating_laser.jpg; sourceTree = "<group>"; };
+		386AB5AC15EC6C5400B09E51 /* analysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = analysisViewController.h; sourceTree = "<group>"; };
+		386AB5AD15EC6C5400B09E51 /* analysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = analysisViewController.m; sourceTree = "<group>"; };
+		386AB5AE15EC6C5400B09E51 /* analysisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = analysisViewController.xib; sourceTree = "<group>"; };
+		386AB5BE15ED1C1100B09E51 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		386AB5C215ED1C2A00B09E51 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		386AB5C415ED1C3800B09E51 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		386AB5C615ED1C3E00B09E51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		386AB5C815ED444700B09E51 /* cameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraViewController.h; sourceTree = "<group>"; };
+		386AB5C915ED444800B09E51 /* cameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cameraViewController.m; sourceTree = "<group>"; };
+		386AB5CA15ED444800B09E51 /* cameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cameraViewController.xib; sourceTree = "<group>"; };
+		386AB5CD15ED496E00B09E51 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		386AB5CF15ED61A300B09E51 /* calibrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calibrationViewController.h; sourceTree = "<group>"; };
+		386AB5D015ED61A300B09E51 /* calibrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calibrationViewController.m; sourceTree = "<group>"; };
+		386AB5D115ED61A400B09E51 /* calibrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = calibrationViewController.xib; sourceTree = "<group>"; };
+		386AB5DD15EEAA7D00B09E51 /* Default-PortraitUpsideDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-PortraitUpsideDown.png"; sourceTree = "<group>"; };
+		386AB5DE15EEAA7E00B09E51 /* Default-PortraitUpsideDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-PortraitUpsideDown@2x.png"; sourceTree = "<group>"; };
+		388360EC15EEC42800AC2ED8 /* build.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = build.html; sourceTree = "<group>"; };
+		3895CC941603C2AF00FA53D7 /* yellow-arrow_no-glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-arrow_no-glow.png"; sourceTree = "<group>"; };
+		3895CC951603C2AF00FA53D7 /* red-arrow_no-glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-arrow_no-glow.png"; sourceTree = "<group>"; };
+		3895CC961603C2AF00FA53D7 /* green-arrows_no-glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-arrows_no-glow.png"; sourceTree = "<group>"; };
+		3895CC971603C2AF00FA53D7 /* blue-arrow_no-glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-arrow_no-glow.png"; sourceTree = "<group>"; };
+		38971BC6160D4DF40016921F /* iPhone.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iPhone.css; sourceTree = "<group>"; };
+		38971BC9160D4EA90016921F /* Default-Portrait-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-568h@2x.png"; sourceTree = "<group>"; };
+		38971BCB160E84190016921F /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		38971BCD1610FC4D0016921F /* Aluminum_Spectra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aluminum_Spectra.jpg; sourceTree = "<group>"; };
+		38971BCF1610FC810016921F /* Argon_Spectrum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Argon_Spectrum.png; sourceTree = "<group>"; };
+		38971BD01610FC810016921F /* Calcium_Spectrum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calcium_Spectrum.png; sourceTree = "<group>"; };
+		38971BD11610FC810016921F /* Carbon_Spectra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carbon_Spectra.jpg; sourceTree = "<group>"; };
+		38971BD21610FC810016921F /* compact fluorescent white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "compact fluorescent white.jpg"; sourceTree = "<group>"; };
+		38971BD31610FC810016921F /* compact fluorescent yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "compact fluorescent yellow.jpg"; sourceTree = "<group>"; };
+		38971BD41610FC810016921F /* computer monitor RGB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "computer monitor RGB.jpg"; sourceTree = "<group>"; };
+		38971BD51610FC810016921F /* full spectrum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "full spectrum.jpg"; sourceTree = "<group>"; };
+		38971BD71610FC810016921F /* Iron_Spectrum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iron_Spectrum.jpg; sourceTree = "<group>"; };
+		38971BD81610FC810016921F /* Mercury_Spectra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercury_Spectra.jpg; sourceTree = "<group>"; };
+		38971BD91610FC810016921F /* overhead fluorescent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "overhead fluorescent.jpg"; sourceTree = "<group>"; };
+		38971BDA1610FC810016921F /* oxygen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oxygen.jpg; sourceTree = "<group>"; };
+		38971BDB1610FC810016921F /* Potassium_Spectrum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Potassium_Spectrum.jpg; sourceTree = "<group>"; };
+		38971BDC1610FC810016921F /* Silicon_Spectra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Silicon_Spectra.jpg; sourceTree = "<group>"; };
+		38971BDD1610FC810016921F /* solar emission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "solar emission.jpg"; sourceTree = "<group>"; };
+		38971BDE1610FC810016921F /* Sulfur_Spectrum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sulfur_Spectrum.jpg; sourceTree = "<group>"; };
+		38971BDF1610FC810016921F /* Xenon_Spectrum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xenon_Spectrum.jpg; sourceTree = "<group>"; };
+		38971BF11610FFD70016921F /* black light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black light.jpg"; sourceTree = "<group>"; };
+		38971BF3161106D30016921F /* barium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barium.jpg; sourceTree = "<group>"; };
+		38971BF5161107DA0016921F /* neon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neon.jpg; sourceTree = "<group>"; };
+		38971BF71611087C0016921F /* nitrogen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nitrogen.jpg; sourceTree = "<group>"; };
+		38971BF9161109030016921F /* strontium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strontium.jpg; sourceTree = "<group>"; };
+		38971BFF1611FED00016921F /* physics.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = physics.html; sourceTree = "<group>"; };
+		38971C001611FED00016921F /* share.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = share.html; sourceTree = "<group>"; };
+		38971C041611FEF50016921F /* physicsheader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = physicsheader.gif; sourceTree = "<group>"; };
+		38971C061611FFEB0016921F /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		38971C08161203040016921F /* facebook_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = facebook_1.gif; sourceTree = "<group>"; };
+		38971C09161203050016921F /* feed_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = feed_1.gif; sourceTree = "<group>"; };
+		38971C0A161203050016921F /* itunes_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = itunes_2.gif; sourceTree = "<group>"; };
+		38971C0B161203050016921F /* twitter_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = twitter_1.gif; sourceTree = "<group>"; };
+		38971C0C161203050016921F /* youtube.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = youtube.gif; sourceTree = "<group>"; };
+		389726B615EFCB6F00CBF0DC /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		389726B815EFCEAF00CBF0DC /* learn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = learn.html; sourceTree = "<group>"; };
+		38AA4077161E21D100B9AD70 /* Icon_Snapp_Analyze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Snapp_Analyze.jpg; sourceTree = "<group>"; };
+		38AA4078161E21D200B9AD70 /* Icon_Snapp_Build.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Snapp_Build.jpg; sourceTree = "<group>"; };
+		38AA4079161E21D200B9AD70 /* Icon_Snapp_Calibration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Snapp_Calibration.jpg; sourceTree = "<group>"; };
+		38AA407A161E21D200B9AD70 /* Icon_Snapp_HelpDesk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Snapp_HelpDesk.jpg; sourceTree = "<group>"; };
+		38AA407B161E21D200B9AD70 /* Icon_Snapp_Learn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Snapp_Learn.jpg; sourceTree = "<group>"; };
+		38AA407C161E21D200B9AD70 /* Icon_Snapp_PhysicsCentral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Snapp_PhysicsCentral.jpg; sourceTree = "<group>"; };
+		38AA407D161E21D200B9AD70 /* Icon_Snapp_Share.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Snapp_Share.jpg; sourceTree = "<group>"; };
+		38AA407E161E21D200B9AD70 /* Icon_Snapp_Sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Snapp_Sample.jpg; sourceTree = "<group>"; };
+		38AA4087161E371D00B9AD70 /* lightwaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lightwaves.jpg; sourceTree = "<group>"; };
+		38AA4089161E3B6000B9AD70 /* grating_lines.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grating_lines.jpg; sourceTree = "<group>"; };
+		38AA408B161E432200B9AD70 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		38AA408C161E432200B9AD70 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		38AA408D161E432300B9AD70 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		38AA408E161E432300B9AD70 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		38AA408F161E432400B9AD70 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		38AA4090161E432400B9AD70 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		38BCBC2A163D826A001D60EB /* grating.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grating.jpg; sourceTree = "<group>"; };
+		38BCBC2B163D826A001D60EB /* greenhouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenhouse.jpg; sourceTree = "<group>"; };
+		38BCBC2C163D826A001D60EB /* spectrum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spectrum.jpg; sourceTree = "<group>"; };
+		38E03E4515EBAA0A00599A79 /* apsLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apsLogo.png; sourceTree = "<group>"; };
+		38E03E4715EBAA0A00599A79 /* arrowsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowsIcon.png; sourceTree = "<group>"; };
+		38E03E4F15EBAA0A00599A79 /* snappTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snappTitle.png; sourceTree = "<group>"; };
+		38E03E5015EBAA0A00599A79 /* spectraSnappTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spectraSnappTitle.png; sourceTree = "<group>"; };
+		38E03E5115EBAA0A00599A79 /* spectraTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spectraTitle.png; sourceTree = "<group>"; };
+		38E03E6015EBAA2800599A79 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		38E03E6215EBAA8500599A79 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		38E03E6315EBAA8500599A79 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		38E03E6615EBAB5A00599A79 /* MainView-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainView-background.png"; sourceTree = "<group>"; };
+		38E03E7715EBD47400599A79 /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewController.h; sourceTree = "<group>"; };
+		38E03E7815EBD47400599A79 /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewController.m; sourceTree = "<group>"; };
+		38E03E7915EBD47400599A79 /* webViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = webViewController.xib; sourceTree = "<group>"; };
+		38E03E7C15EBD95000599A79 /* blue-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-arrow.png"; sourceTree = "<group>"; };
+		38E03E7D15EBD95000599A79 /* green-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-arrow.png"; sourceTree = "<group>"; };
+		38E03E7E15EBD95000599A79 /* red-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-arrow.png"; sourceTree = "<group>"; };
+		38E03E7F15EBD95000599A79 /* yellow-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-arrow.png"; sourceTree = "<group>"; };
+		38E03E8415EBFDE900599A79 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		38EB81AE15F04F39001D01DB /* spectra.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spectra.plist; sourceTree = "<group>"; };
+		38EB81B115F14AD4001D01DB /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		643DC2A21A38BAF1004495FC /* AviarySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AviarySDK.framework; sourceTree = "<group>"; };
+		643DC2A31A38BAF1004495FC /* AviarySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AviarySDKResources.bundle; sourceTree = "<group>"; };
+		987021DE158271F10015FB5E /* spectraSnapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spectraSnapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		987021E2158271F10015FB5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		987021E4158271F10015FB5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		987021E6158271F10015FB5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		987021EA158271F10015FB5E /* spectraSnapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spectraSnapp-Info.plist"; sourceTree = "<group>"; };
+		987021EC158271F10015FB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		987021EE158271F10015FB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		987021F0158271F10015FB5E /* spectraSnapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spectraSnapp-Prefix.pch"; sourceTree = "<group>"; };
+		987021F1158271F10015FB5E /* BBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
+		987021F2158271F10015FB5E /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
+		987021F4158271F10015FB5E /* BBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBViewController.h; sourceTree = "<group>"; };
+		987021F5158271F10015FB5E /* BBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBViewController.m; sourceTree = "<group>"; };
+		987021F8158271F10015FB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BBViewController.xib; sourceTree = "<group>"; };
+		987021FF158279830015FB5E /* BBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCell.h; sourceTree = "<group>"; };
+		98702200158279830015FB5E /* BBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCell.m; sourceTree = "<group>"; };
+		987022021582ADAB0015FB5E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		987021DB158271F10015FB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386AB5CE15ED496F00B09E51 /* MobileCoreServices.framework in Frameworks */,
+				386AB5C715ED1C3E00B09E51 /* CoreData.framework in Frameworks */,
+				386AB5C515ED1C3800B09E51 /* libsqlite3.0.dylib in Frameworks */,
+				386AB5C315ED1C2A00B09E51 /* libz.1.2.5.dylib in Frameworks */,
+				386AB5BF15ED1C1100B09E51 /* Accelerate.framework in Frameworks */,
+				987022031582ADAB0015FB5E /* QuartzCore.framework in Frameworks */,
+				987021E3158271F10015FB5E /* UIKit.framework in Frameworks */,
+				643DC2A41A38BAF1004495FC /* AviarySDK.framework in Frameworks */,
+				987021E5158271F10015FB5E /* Foundation.framework in Frameworks */,
+				987021E7158271F10015FB5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388360EA15EEC3FE00AC2ED8 /* htmlcontent */ = {
+			isa = PBXGroup;
+			children = (
+				38BCBC2A163D826A001D60EB /* grating.jpg */,
+				38BCBC2B163D826A001D60EB /* greenhouse.jpg */,
+				38BCBC2C163D826A001D60EB /* spectrum.jpg */,
+				38AA408B161E432200B9AD70 /* 1.jpg */,
+				38AA408C161E432200B9AD70 /* 2.jpg */,
+				38537F47162D9C43005A3EBB /* grating_laser.jpg */,
+				38AA408D161E432300B9AD70 /* 3.jpg */,
+				38AA408E161E432300B9AD70 /* 4.jpg */,
+				38AA408F161E432400B9AD70 /* 5.jpg */,
+				38AA4090161E432400B9AD70 /* 6.jpg */,
+				38AA4089161E3B6000B9AD70 /* grating_lines.jpg */,
+				38971C08161203040016921F /* facebook_1.gif */,
+				38AA4087161E371D00B9AD70 /* lightwaves.jpg */,
+				38971C09161203050016921F /* feed_1.gif */,
+				38971C0A161203050016921F /* itunes_2.gif */,
+				38971C0B161203050016921F /* twitter_1.gif */,
+				38971C0C161203050016921F /* youtube.gif */,
+				38971C061611FFEB0016921F /* help.html */,
+				38971C041611FEF50016921F /* physicsheader.gif */,
+				38971BFF1611FED00016921F /* physics.html */,
+				38971C001611FED00016921F /* share.html */,
+				389726B815EFCEAF00CBF0DC /* learn.html */,
+				388360EC15EEC42800AC2ED8 /* build.html */,
+				38971BCB160E84190016921F /* style.css */,
+				38971BC6160D4DF40016921F /* iPhone.css */,
+			);
+			name = htmlcontent;
+			sourceTree = "<group>";
+		};
+		389726BA15EFD40300CBF0DC /* spectra */ = {
+			isa = PBXGroup;
+			children = (
+				38971BF9161109030016921F /* strontium.jpg */,
+				38971BF71611087C0016921F /* nitrogen.jpg */,
+				38971BF5161107DA0016921F /* neon.jpg */,
+				38971BF3161106D30016921F /* barium.jpg */,
+				38971BF11610FFD70016921F /* black light.jpg */,
+				38971BCD1610FC4D0016921F /* Aluminum_Spectra.jpg */,
+				38971BCF1610FC810016921F /* Argon_Spectrum.png */,
+				38971BD01610FC810016921F /* Calcium_Spectrum.png */,
+				38971BD11610FC810016921F /* Carbon_Spectra.jpg */,
+				38971BD21610FC810016921F /* compact fluorescent white.jpg */,
+				38971BD31610FC810016921F /* compact fluorescent yellow.jpg */,
+				38971BD41610FC810016921F /* computer monitor RGB.jpg */,
+				38971BD51610FC810016921F /* full spectrum.jpg */,
+				38971BD71610FC810016921F /* Iron_Spectrum.jpg */,
+				38971BD81610FC810016921F /* Mercury_Spectra.jpg */,
+				38971BD91610FC810016921F /* overhead fluorescent.jpg */,
+				38971BDA1610FC810016921F /* oxygen.jpg */,
+				38971BDB1610FC810016921F /* Potassium_Spectrum.jpg */,
+				38971BDC1610FC810016921F /* Silicon_Spectra.jpg */,
+				38971BDD1610FC810016921F /* solar emission.jpg */,
+				38971BDE1610FC810016921F /* Sulfur_Spectrum.jpg */,
+				38971BDF1610FC810016921F /* Xenon_Spectrum.jpg */,
+			);
+			name = spectra;
+			sourceTree = "<group>";
+		};
+		643DC2A11A38BAF1004495FC /* AviarySDK */ = {
+			isa = PBXGroup;
+			children = (
+				643DC2A21A38BAF1004495FC /* AviarySDK.framework */,
+				643DC2A31A38BAF1004495FC /* AviarySDKResources.bundle */,
+			);
+			path = AviarySDK;
+			sourceTree = "<group>";
+		};
+		987021D3158271F10015FB5E = {
+			isa = PBXGroup;
+			children = (
+				643DC2A11A38BAF1004495FC /* AviarySDK */,
+				38971BC9160D4EA90016921F /* Default-Portrait-568h@2x.png */,
+				38EB81B115F14AD4001D01DB /* icon57.png */,
+				389726B615EFCB6F00CBF0DC /* Untitled.png */,
+				386AB5C415ED1C3800B09E51 /* libsqlite3.0.dylib */,
+				386AB5C215ED1C2A00B09E51 /* libz.1.2.5.dylib */,
+				38E03E6215EBAA8500599A79 /* Default-Portrait@2x.png */,
+				38E03E6315EBAA8500599A79 /* Default-Portrait.png */,
+				386AB5DD15EEAA7D00B09E51 /* Default-PortraitUpsideDown.png */,
+				386AB5DE15EEAA7E00B09E51 /* Default-PortraitUpsideDown@2x.png */,
+				987021E8158271F10015FB5E /* spectraSnapp */,
+				987021E1158271F10015FB5E /* Frameworks */,
+				987021DF158271F10015FB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		987021DF158271F10015FB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				987021DE158271F10015FB5E /* spectraSnapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		987021E1158271F10015FB5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				386AB5C615ED1C3E00B09E51 /* CoreData.framework */,
+				386AB5BE15ED1C1100B09E51 /* Accelerate.framework */,
+				987022021582ADAB0015FB5E /* QuartzCore.framework */,
+				386AB5CD15ED496E00B09E51 /* MobileCoreServices.framework */,
+				987021E2158271F10015FB5E /* UIKit.framework */,
+				987021E4158271F10015FB5E /* Foundation.framework */,
+				987021E6158271F10015FB5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		987021E8158271F10015FB5E /* spectraSnapp */ = {
+			isa = PBXGroup;
+			children = (
+				38E03E8415EBFDE900599A79 /* global.h */,
+				987021F1158271F10015FB5E /* BBAppDelegate.h */,
+				987021F2158271F10015FB5E /* BBAppDelegate.m */,
+				987021F4158271F10015FB5E /* BBViewController.h */,
+				987021F5158271F10015FB5E /* BBViewController.m */,
+				987021F7158271F10015FB5E /* BBViewController.xib */,
+				386AB5CF15ED61A300B09E51 /* calibrationViewController.h */,
+				386AB5D015ED61A300B09E51 /* calibrationViewController.m */,
+				386AB5D115ED61A400B09E51 /* calibrationViewController.xib */,
+				386AB5AC15EC6C5400B09E51 /* analysisViewController.h */,
+				386AB5AD15EC6C5400B09E51 /* analysisViewController.m */,
+				386AB5AE15EC6C5400B09E51 /* analysisViewController.xib */,
+				38E03E7715EBD47400599A79 /* webViewController.h */,
+				38E03E7815EBD47400599A79 /* webViewController.m */,
+				38E03E7915EBD47400599A79 /* webViewController.xib */,
+				386AB5C815ED444700B09E51 /* cameraViewController.h */,
+				386AB5C915ED444800B09E51 /* cameraViewController.m */,
+				386AB5CA15ED444800B09E51 /* cameraViewController.xib */,
+				987021FF158279830015FB5E /* BBCell.h */,
+				98702200158279830015FB5E /* BBCell.m */,
+				987021E9158271F10015FB5E /* Supporting Files */,
+			);
+			name = spectraSnapp;
+			path = CircleView;
+			sourceTree = "<group>";
+		};
+		987021E9158271F10015FB5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				389726BA15EFD40300CBF0DC /* spectra */,
+				388360EA15EEC3FE00AC2ED8 /* htmlcontent */,
+				FA70FA0515842CFB0079476E /* images */,
+				987021EA158271F10015FB5E /* spectraSnapp-Info.plist */,
+				987021EB158271F10015FB5E /* InfoPlist.strings */,
+				38E03E6015EBAA2800599A79 /* data.plist */,
+				987021EE158271F10015FB5E /* main.m */,
+				987021F0158271F10015FB5E /* spectraSnapp-Prefix.pch */,
+				38EB81AE15F04F39001D01DB /* spectra.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA70FA0515842CFB0079476E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				38AA4077161E21D100B9AD70 /* Icon_Snapp_Analyze.jpg */,
+				38AA4078161E21D200B9AD70 /* Icon_Snapp_Build.jpg */,
+				38AA4079161E21D200B9AD70 /* Icon_Snapp_Calibration.jpg */,
+				38AA407A161E21D200B9AD70 /* Icon_Snapp_HelpDesk.jpg */,
+				38AA407B161E21D200B9AD70 /* Icon_Snapp_Learn.jpg */,
+				38AA407C161E21D200B9AD70 /* Icon_Snapp_PhysicsCentral.jpg */,
+				38AA407D161E21D200B9AD70 /* Icon_Snapp_Share.jpg */,
+				38AA407E161E21D200B9AD70 /* Icon_Snapp_Sample.jpg */,
+				382CE6F0160915EC00DA6201 /* CustomNavBG.png */,
+				382CE6ED1609015C00DA6201 /* SpectraSnapp_background.jpg */,
+				3895CC941603C2AF00FA53D7 /* yellow-arrow_no-glow.png */,
+				3895CC951603C2AF00FA53D7 /* red-arrow_no-glow.png */,
+				3895CC961603C2AF00FA53D7 /* green-arrows_no-glow.png */,
+				3895CC971603C2AF00FA53D7 /* blue-arrow_no-glow.png */,
+				38E03E7C15EBD95000599A79 /* blue-arrow.png */,
+				38E03E7D15EBD95000599A79 /* green-arrow.png */,
+				38E03E7E15EBD95000599A79 /* red-arrow.png */,
+				38E03E7F15EBD95000599A79 /* yellow-arrow.png */,
+				38E03E6615EBAB5A00599A79 /* MainView-background.png */,
+				38E03E4515EBAA0A00599A79 /* apsLogo.png */,
+				38E03E4715EBAA0A00599A79 /* arrowsIcon.png */,
+				38E03E4F15EBAA0A00599A79 /* snappTitle.png */,
+				38E03E5015EBAA0A00599A79 /* spectraSnappTitle.png */,
+				38E03E5115EBAA0A00599A79 /* spectraTitle.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		987021DD158271F10015FB5E /* spectraSnapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987021FC158271F10015FB5E /* Build configuration list for PBXNativeTarget "spectraSnapp" */;
+			buildPhases = (
+				987021DA158271F10015FB5E /* Sources */,
+				987021DB158271F10015FB5E /* Frameworks */,
+				987021DC158271F10015FB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spectraSnapp;
+			productName = CircleView;
+			productReference = 987021DE158271F10015FB5E /* spectraSnapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		987021D5158271F10015FB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BB;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Integral Development Corporation";
+				TargetAttributes = {
+					987021DD158271F10015FB5E = {
+						DevelopmentTeam = KS597JRE93;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 987021D8158271F10015FB5E /* Build configuration list for PBXProject "spectraSnapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 987021D3158271F10015FB5E;
+			productRefGroup = 987021DF158271F10015FB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				987021DD158271F10015FB5E /* spectraSnapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		987021DC158271F10015FB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987021ED158271F10015FB5E /* InfoPlist.strings in Resources */,
+				987021F9158271F10015FB5E /* BBViewController.xib in Resources */,
+				38E03E5315EBAA0A00599A79 /* apsLogo.png in Resources */,
+				38E03E5515EBAA0A00599A79 /* arrowsIcon.png in Resources */,
+				38E03E5D15EBAA0A00599A79 /* snappTitle.png in Resources */,
+				38E03E5E15EBAA0A00599A79 /* spectraSnappTitle.png in Resources */,
+				38E03E5F15EBAA0A00599A79 /* spectraTitle.png in Resources */,
+				38E03E6115EBAA2800599A79 /* data.plist in Resources */,
+				38E03E6415EBAA8500599A79 /* Default-Portrait@2x.png in Resources */,
+				38E03E6515EBAA8500599A79 /* Default-Portrait.png in Resources */,
+				38E03E6715EBAB5A00599A79 /* MainView-background.png in Resources */,
+				38E03E7B15EBD47400599A79 /* webViewController.xib in Resources */,
+				38E03E8015EBD95000599A79 /* blue-arrow.png in Resources */,
+				38E03E8115EBD95000599A79 /* green-arrow.png in Resources */,
+				38E03E8215EBD95000599A79 /* red-arrow.png in Resources */,
+				38E03E8315EBD95000599A79 /* yellow-arrow.png in Resources */,
+				386AB5B015EC6C5400B09E51 /* analysisViewController.xib in Resources */,
+				386AB5CC15ED444800B09E51 /* cameraViewController.xib in Resources */,
+				386AB5D315ED61A400B09E51 /* calibrationViewController.xib in Resources */,
+				386AB5DF15EEAA7E00B09E51 /* Default-PortraitUpsideDown.png in Resources */,
+				386AB5E015EEAA7E00B09E51 /* Default-PortraitUpsideDown@2x.png in Resources */,
+				388360F515EEC42800AC2ED8 /* build.html in Resources */,
+				389726B715EFCB6F00CBF0DC /* Untitled.png in Resources */,
+				389726B915EFCEAF00CBF0DC /* learn.html in Resources */,
+				38EB81AF15F04F39001D01DB /* spectra.plist in Resources */,
+				38EB81B215F14AD4001D01DB /* icon57.png in Resources */,
+				3895CC981603C2AF00FA53D7 /* yellow-arrow_no-glow.png in Resources */,
+				3895CC991603C2AF00FA53D7 /* red-arrow_no-glow.png in Resources */,
+				3895CC9A1603C2AF00FA53D7 /* green-arrows_no-glow.png in Resources */,
+				3895CC9B1603C2AF00FA53D7 /* blue-arrow_no-glow.png in Resources */,
+				382CE6EE1609015C00DA6201 /* SpectraSnapp_background.jpg in Resources */,
+				382CE6F1160915EC00DA6201 /* CustomNavBG.png in Resources */,
+				38971BC7160D4DF40016921F /* iPhone.css in Resources */,
+				38971BCA160D4EA90016921F /* Default-Portrait-568h@2x.png in Resources */,
+				38971BCC160E84190016921F /* style.css in Resources */,
+				38971BCE1610FC4D0016921F /* Aluminum_Spectra.jpg in Resources */,
+				38971BE01610FC810016921F /* Argon_Spectrum.png in Resources */,
+				38971BE11610FC810016921F /* Calcium_Spectrum.png in Resources */,
+				38971BE21610FC810016921F /* Carbon_Spectra.jpg in Resources */,
+				38971BE31610FC810016921F /* compact fluorescent white.jpg in Resources */,
+				38971BE41610FC810016921F /* compact fluorescent yellow.jpg in Resources */,
+				38971BE51610FC810016921F /* computer monitor RGB.jpg in Resources */,
+				38971BE61610FC810016921F /* full spectrum.jpg in Resources */,
+				38971BE81610FC810016921F /* Iron_Spectrum.jpg in Resources */,
+				38971BE91610FC810016921F /* Mercury_Spectra.jpg in Resources */,
+				38971BEA1610FC810016921F /* overhead fluorescent.jpg in Resources */,
+				38971BEB1610FC810016921F /* oxygen.jpg in Resources */,
+				38971BEC1610FC810016921F /* Potassium_Spectrum.jpg in Resources */,
+				38971BED1610FC810016921F /* Silicon_Spectra.jpg in Resources */,
+				38971BEE1610FC810016921F /* solar emission.jpg in Resources */,
+				38971BEF1610FC810016921F /* Sulfur_Spectrum.jpg in Resources */,
+				38971BF01610FC810016921F /* Xenon_Spectrum.jpg in Resources */,
+				38971BF21610FFD70016921F /* black light.jpg in Resources */,
+				38971BF4161106D30016921F /* barium.jpg in Resources */,
+				38971BF6161107DA0016921F /* neon.jpg in Resources */,
+				38971BF81611087C0016921F /* nitrogen.jpg in Resources */,
+				38971BFA161109030016921F /* strontium.jpg in Resources */,
+				38971C011611FED00016921F /* physics.html in Resources */,
+				38971C021611FED00016921F /* share.html in Resources */,
+				38971C051611FEF50016921F /* physicsheader.gif in Resources */,
+				38971C071611FFEB0016921F /* help.html in Resources */,
+				38971C0D161203060016921F /* facebook_1.gif in Resources */,
+				38971C0E161203060016921F /* feed_1.gif in Resources */,
+				38971C0F161203060016921F /* itunes_2.gif in Resources */,
+				38971C10161203060016921F /* twitter_1.gif in Resources */,
+				38971C11161203060016921F /* youtube.gif in Resources */,
+				38AA407F161E21D200B9AD70 /* Icon_Snapp_Analyze.jpg in Resources */,
+				38AA4080161E21D200B9AD70 /* Icon_Snapp_Build.jpg in Resources */,
+				38AA4081161E21D200B9AD70 /* Icon_Snapp_Calibration.jpg in Resources */,
+				38AA4082161E21D200B9AD70 /* Icon_Snapp_HelpDesk.jpg in Resources */,
+				38AA4083161E21D200B9AD70 /* Icon_Snapp_Learn.jpg in Resources */,
+				38AA4084161E21D200B9AD70 /* Icon_Snapp_PhysicsCentral.jpg in Resources */,
+				38AA4085161E21D200B9AD70 /* Icon_Snapp_Share.jpg in Resources */,
+				38AA4086161E21D200B9AD70 /* Icon_Snapp_Sample.jpg in Resources */,
+				38AA4088161E371D00B9AD70 /* lightwaves.jpg in Resources */,
+				38AA408A161E3B6000B9AD70 /* grating_lines.jpg in Resources */,
+				38AA4091161E432400B9AD70 /* 1.jpg in Resources */,
+				38AA4092161E432400B9AD70 /* 2.jpg in Resources */,
+				38AA4093161E432400B9AD70 /* 3.jpg in Resources */,
+				38AA4094161E432400B9AD70 /* 4.jpg in Resources */,
+				38AA4095161E432400B9AD70 /* 5.jpg in Resources */,
+				38AA4096161E432400B9AD70 /* 6.jpg in Resources */,
+				38537F48162D9C43005A3EBB /* grating_laser.jpg in Resources */,
+				38BCBC2D163D826A001D60EB /* grating.jpg in Resources */,
+				38BCBC2E163D826A001D60EB /* greenhouse.jpg in Resources */,
+				38BCBC2F163D826A001D60EB /* spectrum.jpg in Resources */,
+				643DC2A51A38BAF1004495FC /* AviarySDKResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		987021DA158271F10015FB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987021EF158271F10015FB5E /* main.m in Sources */,
+				987021F3158271F10015FB5E /* BBAppDelegate.m in Sources */,
+				987021F6158271F10015FB5E /* BBViewController.m in Sources */,
+				98702201158279830015FB5E /* BBCell.m in Sources */,
+				38E03E7A15EBD47400599A79 /* webViewController.m in Sources */,
+				386AB5AF15EC6C5400B09E51 /* analysisViewController.m in Sources */,
+				386AB5CB15ED444800B09E51 /* cameraViewController.m in Sources */,
+				386AB5D215ED61A400B09E51 /* calibrationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		987021EB158271F10015FB5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				987021EC158271F10015FB5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		987021F7158271F10015FB5E /* BBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				987021F8158271F10015FB5E /* en */,
+			);
+			name = BBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		987021FA158271F10015FB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iOS Development: james collinsworth (5KGWFSHPR8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: james collinsworth (5KGWFSHPR8)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-OjbC",
+					"-all_load",
+					"-fobjc-arc",
+				);
+				PROVISIONING_PROFILE = "BC9F3ECB-DB0D-40B5-A61E-91B0C1E81DE0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BC9F3ECB-DB0D-40B5-A61E-91B0C1E81DE0";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		987021FB158271F10015FB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The American Physical Society (KS597JRE93)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The American Physical Society (KS597JRE93)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+					"-fobjc-arc",
+				);
+				PROVISIONING_PROFILE = "BC9F3ECB-DB0D-40B5-A61E-91B0C1E81DE0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BC9F3ECB-DB0D-40B5-A61E-91B0C1E81DE0";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		987021FD158271F10015FB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AviarySDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleView/spectraSnapp-Prefix.pch";
+				INFOPLIST_FILE = "CircleView/spectraSnapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AviarySDK\"",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = spectraSnapp;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		987021FE158271F10015FB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The American Physical Society (KS597JRE93)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AviarySDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleView/spectraSnapp-Prefix.pch";
+				INFOPLIST_FILE = "CircleView/spectraSnapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AviarySDK\"",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = spectraSnapp;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		987021D8158271F10015FB5E /* Build configuration list for PBXProject "spectraSnapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987021FA158271F10015FB5E /* Debug */,
+				987021FB158271F10015FB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		987021FC158271F10015FB5E /* Build configuration list for PBXNativeTarget "spectraSnapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987021FD158271F10015FB5E /* Debug */,
+				987021FE158271F10015FB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 987021D5158271F10015FB5E /* Project object */;
+}

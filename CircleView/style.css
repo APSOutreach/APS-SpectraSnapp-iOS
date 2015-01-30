@@ -1,0 +1,40 @@
+/*--- Main CSS here ---*/
+
+/*------------------------------------*\
+	IPHONE
+\*------------------------------------*/
+@media screen and (max-device-width: 480px){
+/*--- iPhone only CSS here ---*/
+body{
+    background-color: black;
+    color: white;
+  -webkit-text-size-adjust:none;
+  font-family:Helvetica, Verdana, sans-serif;
+  padding:5px;
+  line-height:100%;
+  letter-spacing:.4px;
+}
+
+div{
+  clear:both!important;
+  display:block!important;
+  width:100%!important;
+  float:none!important;
+  margin:0!important;
+  padding:0!important;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+  border: 2px solid #C1CDCD;
+}
+
+li {
+  margin-top:10px;
+}
+
+a:link {text-decoration:none;background-color:black;color:red;}
+a:visited {text-decoration:none;background-color:black;color:red;}
+a:hover {text-decoration:none;background-color:#7D7D7D;color:red;}
+a:active {text-decoration:none;background-color:black;color:red;}
