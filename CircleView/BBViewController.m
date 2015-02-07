@@ -232,7 +232,7 @@
     NSString *vcURL = [[mDataSource objectAtIndex:[indexPath row]] objectForKey:KEY_URL];
     
 
-    [self.navigationItem.backBarButtonItem setStyle:UIBarButtonSystemItemAction];
+    [self.navigationItem.backBarButtonItem setStyle:UIBarButtonItemStyleBordered];
     
     // save the selection index and dictionary data as global data.
     [APPDELEGATE setMenuIndex:[indexPath row]];

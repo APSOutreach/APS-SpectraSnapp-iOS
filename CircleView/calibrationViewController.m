@@ -88,14 +88,14 @@
                                    @selector(image:finishedSavingWithError:contextInfo:),
                                    nil);
 
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)photoEditorCanceled:(AFPhotoEditorController *)editor
 {
     // Handle cancelation here
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
@@ -112,7 +112,7 @@ finishedSavingWithError:(NSError *)error
                               otherButtonTitles:nil];
         [alert show];
     }
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 

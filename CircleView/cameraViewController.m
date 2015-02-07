@@ -78,7 +78,7 @@
                                   (NSString *) kUTTypeImage,
                                   nil];
         imagePicker.allowsEditing = NO;
-        [self presentModalViewController:imagePicker animated:YES];
+        [self presentViewController:imagePicker animated:YES completion:nil];
         newMedia = YES;
     }
 }
@@ -97,7 +97,7 @@
                                   (NSString *) kUTTypeImage,
                                   nil];
         imagePicker.allowsEditing = NO;
-        [self presentModalViewController:imagePicker animated:YES];
+        [self presentViewController:imagePicker animated:YES completion:nil];
         newMedia = NO;
     }
 }
@@ -107,7 +107,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];
     
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     
     if ([mediaType isEqualToString:(NSString *)kUTTypeImage]) {
         UIImage *image = [info
@@ -153,7 +153,7 @@ finishedSavingWithError:(NSError *)error
 
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
