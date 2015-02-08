@@ -469,7 +469,7 @@
 			attributes = {
 				CLASSPREFIX = BB;
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Integral Development Corporation";
+				ORGANIZATIONNAME = "Breakthrough Technologies";
 				TargetAttributes = {
 					987021DD158271F10015FB5E = {
 						DevelopmentTeam = KS597JRE93;
@@ -723,6 +723,7 @@
 		987021FD158271F10015FB5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_MODULES_AUTOLINK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -751,6 +752,7 @@
 		987021FE158271F10015FB5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_MODULES_AUTOLINK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The American Physical Society (KS597JRE93)";
 				FRAMEWORK_SEARCH_PATHS = (
