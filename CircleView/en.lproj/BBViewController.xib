@@ -16,9 +16,13 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
-                <tableView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="center" fixedFrame="YES" bounces="NO" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                <imageView userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SpectraSnapp_background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NVq-8V-Hc2">
+                    <rect key="frame" x="-6" y="-10" width="383" height="680"/>
+                </imageView>
+                <tableView autoresizesSubviews="NO" clipsSubviews="YES" alpha="0.98999999999999999" contentMode="center" fixedFrame="YES" bounces="NO" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="8">
                     <rect key="frame" x="0.0" y="-1" width="377" height="670"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="9"/>
                         <outlet property="delegate" destination="-1" id="10"/>
@@ -32,6 +36,9 @@
             <point key="canvasLocation" x="206.5" y="270.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="SpectraSnapp_background.jpg" width="1800" height="2761"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

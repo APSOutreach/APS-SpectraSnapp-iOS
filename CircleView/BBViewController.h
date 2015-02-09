@@ -33,9 +33,9 @@
 #define KEY_URL @"url"
 
 
-#define HORIZONTAL_RADIUS_RATIO .8
-#define VERTICAL_RADIUS_RATIO .8
-#define HORIZONTAL_TRANSLATION -130.0
+#define HORIZONTAL_RADIUS_RATIO .5
+#define VERTICAL_RADIUS_RATIO 1.2
+#define HORIZONTAL_TRANSLATION -70.0
 #define CIRCLE_DIRECTION_RIGHT 1
 
 @interface BBViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate, UIActionSheetDelegate>

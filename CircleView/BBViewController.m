@@ -323,7 +323,9 @@
     float shift = ((int)mTableView.contentOffset.y % (int)mTableView.rowHeight);  
     int totalVisibleCells =[indexpaths count];
     float y = 0.0;
-    float radius = mTableView.frame.size.height/2.0f;
+    //float radius = mTableView.frame.size.height/2.0f;
+    float radius = mTableView.contentSize.height/2.0f;
+    
     float xRadius = radius;
     
     for( NSUInteger index =0; index < totalVisibleCells; index++ )
@@ -361,7 +363,7 @@
             x = x + HORIZONTAL_TRANSLATION*-2;// we have to shift the center of the circle toward the right
         }
         else {
-            x = x + HORIZONTAL_TRANSLATION;  
+            x = x + HORIZONTAL_TRANSLATION;
         }
         
         frame.origin.x = x ;
