@@ -193,12 +193,17 @@
     
 }
 
+- (void) viewDidLayoutSubviews {
+    [self setupShapeFormationInVisibleCells];
+}
+
+/*
 - (void)viewDidAppear:(BOOL)animated
 {
     //update the cells to form the circle shape
     [self setupShapeFormationInVisibleCells];
     [super viewDidAppear:animated];
-}
+} */
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
