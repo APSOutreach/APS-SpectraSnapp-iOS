@@ -10,6 +10,8 @@
 		382CE6EE1609015C00DA6201 /* SpectraSnapp_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 382CE6ED1609015C00DA6201 /* SpectraSnapp_background.jpg */; };
 		382CE6F1160915EC00DA6201 /* CustomNavBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 382CE6F0160915EC00DA6201 /* CustomNavBG.png */; };
 		38537F48162D9C43005A3EBB /* grating_laser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38537F47162D9C43005A3EBB /* grating_laser.jpg */; };
+		38682CB61A89AD2D001B3FA8 /* spectral_workbench.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38682CB41A89AD2D001B3FA8 /* spectral_workbench.jpg */; };
+		38682CB71A89AD2D001B3FA8 /* capture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38682CB51A89AD2D001B3FA8 /* capture.jpg */; };
 		386AB5AF15EC6C5400B09E51 /* analysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386AB5AD15EC6C5400B09E51 /* analysisViewController.m */; };
 		386AB5B015EC6C5400B09E51 /* analysisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5AE15EC6C5400B09E51 /* analysisViewController.xib */; };
 		386AB5BF15ED1C1100B09E51 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386AB5BE15ED1C1100B09E51 /* Accelerate.framework */; };
@@ -118,6 +120,8 @@
 		382CE6ED1609015C00DA6201 /* SpectraSnapp_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpectraSnapp_background.jpg; sourceTree = "<group>"; };
 		382CE6F0160915EC00DA6201 /* CustomNavBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomNavBG.png; sourceTree = "<group>"; };
 		38537F47162D9C43005A3EBB /* grating_laser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grating_laser.jpg; sourceTree = "<group>"; };
+		38682CB41A89AD2D001B3FA8 /* spectral_workbench.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spectral_workbench.jpg; sourceTree = "<group>"; };
+		38682CB51A89AD2D001B3FA8 /* capture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = capture.jpg; sourceTree = "<group>"; };
 		386AB5AC15EC6C5400B09E51 /* analysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = analysisViewController.h; sourceTree = "<group>"; };
 		386AB5AD15EC6C5400B09E51 /* analysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = analysisViewController.m; sourceTree = "<group>"; };
 		386AB5AE15EC6C5400B09E51 /* analysisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = analysisViewController.xib; sourceTree = "<group>"; };
@@ -260,6 +264,8 @@
 				38BCBC2A163D826A001D60EB /* grating.jpg */,
 				38BCBC2B163D826A001D60EB /* greenhouse.jpg */,
 				38BCBC2C163D826A001D60EB /* spectrum.jpg */,
+				38682CB41A89AD2D001B3FA8 /* spectral_workbench.jpg */,
+				38682CB51A89AD2D001B3FA8 /* capture.jpg */,
 				38AA408B161E432200B9AD70 /* 1.jpg */,
 				38AA408C161E432200B9AD70 /* 2.jpg */,
 				38537F47162D9C43005A3EBB /* grating_laser.jpg */,
@@ -548,6 +554,8 @@
 				38971BE61610FC810016921F /* full spectrum.jpg in Resources */,
 				38971BE81610FC810016921F /* Iron_Spectrum.jpg in Resources */,
 				38971BE91610FC810016921F /* Mercury_Spectra.jpg in Resources */,
+				38682CB71A89AD2D001B3FA8 /* capture.jpg in Resources */,
+				38682CB61A89AD2D001B3FA8 /* spectral_workbench.jpg in Resources */,
 				38971BEA1610FC810016921F /* overhead fluorescent.jpg in Resources */,
 				38971BEB1610FC810016921F /* oxygen.jpg in Resources */,
 				38971BEC1610FC810016921F /* Potassium_Spectrum.jpg in Resources */,

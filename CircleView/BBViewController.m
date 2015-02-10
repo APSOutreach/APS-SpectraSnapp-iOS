@@ -70,7 +70,7 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated {
-    
+    [super viewWillAppear:animated];
     // Set title
     self.navigationItem.title=@"Spectrum Snapp";
     UIImage *backgroundImage = [UIImage imageNamed:@"CustomNavBG.png"];
@@ -195,9 +195,9 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidAppear:animated];
     //update the cells to form the circle shape
     [self setupShapeFormationInVisibleCells];
+    [super viewDidAppear:animated];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
