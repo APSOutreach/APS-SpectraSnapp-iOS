@@ -7,7 +7,7 @@ Dec 2014
  * Added missing images to html content
 
 Jan 2015
- * Moved app from BT SVN repository into BT Github (due to known issues with OSX/Xcode/SVN). Client and developers can now work easily completely within Xcode.
+ * Moved app from BT SVN repository into BT Github (due to known issues with OSX/Xcode/SVN). Client and developers can now work safely within Xcode.
 
 Feb 2015
  * Moved application name from BT apple developer account to APS apple developer account.
