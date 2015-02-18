@@ -10,6 +10,6 @@ Jan 2015
  * Moved app from BT SVN repository into BT Github (due to known issues with OSX/Xcode/SVN). Client and developers can now work safely within Xcode.
 
 Feb 2015
- * Moved application name from BT apple developer account to APS apple developer account.
+ * Moved application name from BT apple developer account to APS apple developer account.  APS TeamID-KS597JRE93
  * Created testflight version in APS account, added test users
 
