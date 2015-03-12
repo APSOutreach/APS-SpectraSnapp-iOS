@@ -25,6 +25,7 @@
 		386AB5D315ED61A400B09E51 /* calibrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5D115ED61A400B09E51 /* calibrationViewController.xib */; };
 		386AB5DF15EEAA7E00B09E51 /* Default-PortraitUpsideDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5DD15EEAA7D00B09E51 /* Default-PortraitUpsideDown.png */; };
 		386AB5E015EEAA7E00B09E51 /* Default-PortraitUpsideDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 386AB5DE15EEAA7E00B09E51 /* Default-PortraitUpsideDown@2x.png */; };
+		386C38421A9B663400793216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386C38411A9B663400793216 /* Images.xcassets */; };
 		388360F515EEC42800AC2ED8 /* build.html in Resources */ = {isa = PBXBuildFile; fileRef = 388360EC15EEC42800AC2ED8 /* build.html */; };
 		3895CC981603C2AF00FA53D7 /* yellow-arrow_no-glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3895CC941603C2AF00FA53D7 /* yellow-arrow_no-glow.png */; };
 		3895CC991603C2AF00FA53D7 /* red-arrow_no-glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3895CC951603C2AF00FA53D7 /* red-arrow_no-glow.png */; };
@@ -101,7 +102,13 @@
 		38E03E8215EBD95000599A79 /* red-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E7E15EBD95000599A79 /* red-arrow.png */; };
 		38E03E8315EBD95000599A79 /* yellow-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E03E7F15EBD95000599A79 /* yellow-arrow.png */; };
 		38EB81AF15F04F39001D01DB /* spectra.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38EB81AE15F04F39001D01DB /* spectra.plist */; };
-		38EB81B215F14AD4001D01DB /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EB81B115F14AD4001D01DB /* icon57.png */; };
+		38F9AE851AB1F178003753A0 /* helium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F9AE841AB1F178003753A0 /* helium.jpg */; };
+		38F9AE871AB1F18A003753A0 /* hydrogen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F9AE861AB1F18A003753A0 /* hydrogen.jpg */; };
+		38F9AE891AB1F1A5003753A0 /* krypton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F9AE881AB1F1A5003753A0 /* krypton.jpg */; };
+		38F9AE8B1AB1F1B9003753A0 /* lithium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F9AE8A1AB1F1B9003753A0 /* lithium.jpg */; };
+		38F9AE8D1AB1F1D7003753A0 /* magnesium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F9AE8C1AB1F1D7003753A0 /* magnesium.jpg */; };
+		38F9AE8F1AB1F217003753A0 /* radon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38F9AE8E1AB1F217003753A0 /* radon.gif */; };
+		38F9AE911AB1F238003753A0 /* sodium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F9AE901AB1F238003753A0 /* sodium.jpg */; };
 		643DC2A41A38BAF1004495FC /* AviarySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643DC2A21A38BAF1004495FC /* AviarySDK.framework */; };
 		643DC2A51A38BAF1004495FC /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 643DC2A31A38BAF1004495FC /* AviarySDKResources.bundle */; };
 		987021E3158271F10015FB5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987021E2158271F10015FB5E /* UIKit.framework */; };
@@ -138,6 +145,7 @@
 		386AB5D115ED61A400B09E51 /* calibrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = calibrationViewController.xib; sourceTree = "<group>"; };
 		386AB5DD15EEAA7D00B09E51 /* Default-PortraitUpsideDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-PortraitUpsideDown.png"; sourceTree = "<group>"; };
 		386AB5DE15EEAA7E00B09E51 /* Default-PortraitUpsideDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-PortraitUpsideDown@2x.png"; sourceTree = "<group>"; };
+		386C38411A9B663400793216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = spectraSnapp/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		388360EC15EEC42800AC2ED8 /* build.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = build.html; sourceTree = "<group>"; };
 		3895CC941603C2AF00FA53D7 /* yellow-arrow_no-glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-arrow_no-glow.png"; sourceTree = "<group>"; };
 		3895CC951603C2AF00FA53D7 /* red-arrow_no-glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-arrow_no-glow.png"; sourceTree = "<group>"; };
@@ -216,7 +224,13 @@
 		38E03E7F15EBD95000599A79 /* yellow-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-arrow.png"; sourceTree = "<group>"; };
 		38E03E8415EBFDE900599A79 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
 		38EB81AE15F04F39001D01DB /* spectra.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spectra.plist; sourceTree = "<group>"; };
-		38EB81B115F14AD4001D01DB /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		38F9AE841AB1F178003753A0 /* helium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helium.jpg; sourceTree = "<group>"; };
+		38F9AE861AB1F18A003753A0 /* hydrogen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hydrogen.jpg; sourceTree = "<group>"; };
+		38F9AE881AB1F1A5003753A0 /* krypton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = krypton.jpg; sourceTree = "<group>"; };
+		38F9AE8A1AB1F1B9003753A0 /* lithium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lithium.jpg; sourceTree = "<group>"; };
+		38F9AE8C1AB1F1D7003753A0 /* magnesium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = magnesium.jpg; sourceTree = "<group>"; };
+		38F9AE8E1AB1F217003753A0 /* radon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = radon.gif; sourceTree = "<group>"; };
+		38F9AE901AB1F238003753A0 /* sodium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sodium.jpg; sourceTree = "<group>"; };
 		643DC2A21A38BAF1004495FC /* AviarySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AviarySDK.framework; sourceTree = "<group>"; };
 		643DC2A31A38BAF1004495FC /* AviarySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AviarySDKResources.bundle; sourceTree = "<group>"; };
 		987021DE158271F10015FB5E /* spectraSnapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spectraSnapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -300,13 +314,20 @@
 				38971BF5161107DA0016921F /* neon.jpg */,
 				38971BF3161106D30016921F /* barium.jpg */,
 				38971BF11610FFD70016921F /* black light.jpg */,
+				38F9AE841AB1F178003753A0 /* helium.jpg */,
 				38971BCD1610FC4D0016921F /* Aluminum_Spectra.jpg */,
 				38971BCF1610FC810016921F /* Argon_Spectrum.png */,
 				38971BD01610FC810016921F /* Calcium_Spectrum.png */,
+				38F9AE861AB1F18A003753A0 /* hydrogen.jpg */,
+				38F9AE8E1AB1F217003753A0 /* radon.gif */,
 				38971BD11610FC810016921F /* Carbon_Spectra.jpg */,
 				38971BD21610FC810016921F /* compact fluorescent white.jpg */,
+				38F9AE8C1AB1F1D7003753A0 /* magnesium.jpg */,
+				38F9AE8A1AB1F1B9003753A0 /* lithium.jpg */,
+				38F9AE881AB1F1A5003753A0 /* krypton.jpg */,
 				38971BD31610FC810016921F /* compact fluorescent yellow.jpg */,
 				38971BD41610FC810016921F /* computer monitor RGB.jpg */,
+				38F9AE901AB1F238003753A0 /* sodium.jpg */,
 				38971BD51610FC810016921F /* full spectrum.jpg */,
 				38971BD71610FC810016921F /* Iron_Spectrum.jpg */,
 				38971BD81610FC810016921F /* Mercury_Spectra.jpg */,
@@ -335,7 +356,6 @@
 			children = (
 				643DC2A11A38BAF1004495FC /* AviarySDK */,
 				38971BC9160D4EA90016921F /* Default-Portrait-568h@2x.png */,
-				38EB81B115F14AD4001D01DB /* icon57.png */,
 				389726B615EFCB6F00CBF0DC /* Untitled.png */,
 				386AB5C415ED1C3800B09E51 /* libsqlite3.0.dylib */,
 				386AB5C215ED1C2A00B09E51 /* libz.1.2.5.dylib */,
@@ -394,6 +414,7 @@
 				386AB5CA15ED444800B09E51 /* cameraViewController.xib */,
 				987021FF158279830015FB5E /* BBCell.h */,
 				98702200158279830015FB5E /* BBCell.m */,
+				386C38411A9B663400793216 /* Images.xcassets */,
 				987021E9158271F10015FB5E /* Supporting Files */,
 			);
 			name = spectraSnapp;
@@ -511,10 +532,12 @@
 			files = (
 				987021ED158271F10015FB5E /* InfoPlist.strings in Resources */,
 				987021F9158271F10015FB5E /* BBViewController.xib in Resources */,
+				38F9AE8D1AB1F1D7003753A0 /* magnesium.jpg in Resources */,
 				38E03E5315EBAA0A00599A79 /* apsLogo.png in Resources */,
 				38E03E5515EBAA0A00599A79 /* arrowsIcon.png in Resources */,
 				38E03E5D15EBAA0A00599A79 /* snappTitle.png in Resources */,
 				38E03E5E15EBAA0A00599A79 /* spectraSnappTitle.png in Resources */,
+				38F9AE8F1AB1F217003753A0 /* radon.gif in Resources */,
 				38E03E5F15EBAA0A00599A79 /* spectraTitle.png in Resources */,
 				38E03E6115EBAA2800599A79 /* data.plist in Resources */,
 				38E03E6415EBAA8500599A79 /* Default-Portrait@2x.png in Resources */,
@@ -534,7 +557,6 @@
 				389726B715EFCB6F00CBF0DC /* Untitled.png in Resources */,
 				389726B915EFCEAF00CBF0DC /* learn.html in Resources */,
 				38EB81AF15F04F39001D01DB /* spectra.plist in Resources */,
-				38EB81B215F14AD4001D01DB /* icon57.png in Resources */,
 				3895CC981603C2AF00FA53D7 /* yellow-arrow_no-glow.png in Resources */,
 				3895CC991603C2AF00FA53D7 /* red-arrow_no-glow.png in Resources */,
 				3895CC9A1603C2AF00FA53D7 /* green-arrows_no-glow.png in Resources */,
@@ -547,6 +569,7 @@
 				38971BCE1610FC4D0016921F /* Aluminum_Spectra.jpg in Resources */,
 				38971BE01610FC810016921F /* Argon_Spectrum.png in Resources */,
 				38971BE11610FC810016921F /* Calcium_Spectrum.png in Resources */,
+				38F9AE851AB1F178003753A0 /* helium.jpg in Resources */,
 				38971BE21610FC810016921F /* Carbon_Spectra.jpg in Resources */,
 				38971BE31610FC810016921F /* compact fluorescent white.jpg in Resources */,
 				38971BE41610FC810016921F /* compact fluorescent yellow.jpg in Resources */,
@@ -555,6 +578,7 @@
 				38971BE81610FC810016921F /* Iron_Spectrum.jpg in Resources */,
 				38971BE91610FC810016921F /* Mercury_Spectra.jpg in Resources */,
 				38682CB71A89AD2D001B3FA8 /* capture.jpg in Resources */,
+				38F9AE8B1AB1F1B9003753A0 /* lithium.jpg in Resources */,
 				38682CB61A89AD2D001B3FA8 /* spectral_workbench.jpg in Resources */,
 				38971BEA1610FC810016921F /* overhead fluorescent.jpg in Resources */,
 				38971BEB1610FC810016921F /* oxygen.jpg in Resources */,
@@ -566,6 +590,7 @@
 				38971BF21610FFD70016921F /* black light.jpg in Resources */,
 				38971BF4161106D30016921F /* barium.jpg in Resources */,
 				38971BF6161107DA0016921F /* neon.jpg in Resources */,
+				38F9AE871AB1F18A003753A0 /* hydrogen.jpg in Resources */,
 				38971BF81611087C0016921F /* nitrogen.jpg in Resources */,
 				38971BFA161109030016921F /* strontium.jpg in Resources */,
 				38971C011611FED00016921F /* physics.html in Resources */,
@@ -579,6 +604,7 @@
 				38971C11161203060016921F /* youtube.gif in Resources */,
 				38AA407F161E21D200B9AD70 /* Icon_Snapp_Analyze.jpg in Resources */,
 				38AA4080161E21D200B9AD70 /* Icon_Snapp_Build.jpg in Resources */,
+				38F9AE911AB1F238003753A0 /* sodium.jpg in Resources */,
 				38AA4081161E21D200B9AD70 /* Icon_Snapp_Calibration.jpg in Resources */,
 				38AA4082161E21D200B9AD70 /* Icon_Snapp_HelpDesk.jpg in Resources */,
 				38AA4083161E21D200B9AD70 /* Icon_Snapp_Learn.jpg in Resources */,
@@ -590,12 +616,14 @@
 				38AA4091161E432400B9AD70 /* 1.jpg in Resources */,
 				38AA4092161E432400B9AD70 /* 2.jpg in Resources */,
 				38AA4093161E432400B9AD70 /* 3.jpg in Resources */,
+				386C38421A9B663400793216 /* Images.xcassets in Resources */,
 				38AA4094161E432400B9AD70 /* 4.jpg in Resources */,
 				38AA4095161E432400B9AD70 /* 5.jpg in Resources */,
 				38AA4096161E432400B9AD70 /* 6.jpg in Resources */,
 				38537F48162D9C43005A3EBB /* grating_laser.jpg in Resources */,
 				38BCBC2D163D826A001D60EB /* grating.jpg in Resources */,
 				38BCBC2E163D826A001D60EB /* greenhouse.jpg in Resources */,
+				38F9AE891AB1F1A5003753A0 /* krypton.jpg in Resources */,
 				38BCBC2F163D826A001D60EB /* spectrum.jpg in Resources */,
 				643DC2A51A38BAF1004495FC /* AviarySDKResources.bundle in Resources */,
 			);
@@ -731,6 +759,8 @@
 		987021FD158271F10015FB5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_MODULES_AUTOLINK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -752,7 +782,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -760,6 +790,8 @@
 		987021FE158271F10015FB5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_MODULES_AUTOLINK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -781,7 +813,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
