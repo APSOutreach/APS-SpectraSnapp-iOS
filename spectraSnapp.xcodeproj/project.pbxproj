@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381A849D1AB5E44200F2D2CB /* icon1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 381A849B1AB5E44200F2D2CB /* icon1024x1024.jpg */; };
+		381A849E1AB5E44200F2D2CB /* icon1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 381A849C1AB5E44200F2D2CB /* icon1024x1024.png */; };
 		382CE6EE1609015C00DA6201 /* SpectraSnapp_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 382CE6ED1609015C00DA6201 /* SpectraSnapp_background.jpg */; };
 		382CE6F1160915EC00DA6201 /* CustomNavBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 382CE6F0160915EC00DA6201 /* CustomNavBG.png */; };
 		38537F48162D9C43005A3EBB /* grating_laser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38537F47162D9C43005A3EBB /* grating_laser.jpg */; };
@@ -124,6 +126,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		381A849B1AB5E44200F2D2CB /* icon1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon1024x1024.jpg; sourceTree = "<group>"; };
+		381A849C1AB5E44200F2D2CB /* icon1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024x1024.png; sourceTree = "<group>"; };
 		382CE6ED1609015C00DA6201 /* SpectraSnapp_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpectraSnapp_background.jpg; sourceTree = "<group>"; };
 		382CE6F0160915EC00DA6201 /* CustomNavBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomNavBG.png; sourceTree = "<group>"; };
 		38537F47162D9C43005A3EBB /* grating_laser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grating_laser.jpg; sourceTree = "<group>"; };
@@ -440,6 +444,8 @@
 		FA70FA0515842CFB0079476E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				381A849B1AB5E44200F2D2CB /* icon1024x1024.jpg */,
+				381A849C1AB5E44200F2D2CB /* icon1024x1024.png */,
 				38AA4077161E21D100B9AD70 /* Icon_Snapp_Analyze.jpg */,
 				38AA4078161E21D200B9AD70 /* Icon_Snapp_Build.jpg */,
 				38AA4079161E21D200B9AD70 /* Icon_Snapp_Calibration.jpg */,
@@ -561,6 +567,7 @@
 				3895CC991603C2AF00FA53D7 /* red-arrow_no-glow.png in Resources */,
 				3895CC9A1603C2AF00FA53D7 /* green-arrows_no-glow.png in Resources */,
 				3895CC9B1603C2AF00FA53D7 /* blue-arrow_no-glow.png in Resources */,
+				381A849E1AB5E44200F2D2CB /* icon1024x1024.png in Resources */,
 				382CE6EE1609015C00DA6201 /* SpectraSnapp_background.jpg in Resources */,
 				382CE6F1160915EC00DA6201 /* CustomNavBG.png in Resources */,
 				38971BC7160D4DF40016921F /* iPhone.css in Resources */,
@@ -620,6 +627,7 @@
 				38AA4094161E432400B9AD70 /* 4.jpg in Resources */,
 				38AA4095161E432400B9AD70 /* 5.jpg in Resources */,
 				38AA4096161E432400B9AD70 /* 6.jpg in Resources */,
+				381A849D1AB5E44200F2D2CB /* icon1024x1024.jpg in Resources */,
 				38537F48162D9C43005A3EBB /* grating_laser.jpg in Resources */,
 				38BCBC2D163D826A001D60EB /* grating.jpg in Resources */,
 				38BCBC2E163D826A001D60EB /* greenhouse.jpg in Resources */,
